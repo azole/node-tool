@@ -1,0 +1,11 @@
+{
+    "name": "grunt-test",
+    "version": "0.0.9",
+    "devDependencies": {
+        "grunt": "*",
+	"grunt-contrib-watch": "*",
+        "grunt-contrib-uglify": "*",
+	"grunt-contrib-cssmin": "*",
+	"grunt-contrib-copy": "*"
+    }
+}

@@ -1,0 +1,16 @@
+<doctype html>
+<head>
+<%
+    var isProd = grunt.config('isProd');	
+    if(isProd) {
+	var jsFiles = grunt.config('uglify.myTarget.files');
+        for(var k in jsFiles){
+		print('<script type="text/javascript" src="../' + k + '"></script>\n');
+	}
+    } else {
+	// print dev env scripts
+    }
+%>
+</head>
+<html>
+</html>
